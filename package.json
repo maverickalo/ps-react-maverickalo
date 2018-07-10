@@ -27,7 +27,7 @@
     "fs-extra": "3.0.1",
     "highlight.js": "^9.10.0",
     "html-webpack-plugin": "2.29.0",
-    "jest": "20.0.4",
+    "jest": "18.1.0",
     "object-assign": "4.1.1",
     "postcss-flexbugs-fixes": "3.2.0",
     "postcss-loader": "2.0.8",
@@ -35,7 +35,6 @@
     "raf": "3.4.0",
     "react": "^16.4.1",
     "react-dev-utils": "^5.0.1",
-    "react-dom": "^16.4.1",
     "resolve": "1.6.0",
     "style-loader": "0.19.0",
     "styled-components": "^1.4.5",
@@ -99,9 +98,13 @@
   },
   "devDependencies": {
     "chokidar": "^1.6.1",
+    "enzyme": "^2.8.2",
     "find-cache-dir": "^2.0.0",
     "npm-run-all": "^4.0.2",
     "prop-types": "^15.6.2",
-    "react-docgen": "^2.14.0"
+    "react-addons-test-utils": "^15.6.2",
+    "react-docgen": "^2.14.0",
+    "react-dom": "^16.4.1",
+    "react-test-renderer": "^15.6.2"
   }
 }
