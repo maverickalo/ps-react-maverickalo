@@ -39,7 +39,6 @@ function TextInput({
 }
 
 TextInput.propTypes = {
-  /** Unique HTML ID. Used for tying label to HTML input. Handy hook for automated testing */
   htmlId: PropTypes.string.isRequired,
   /** Input name. Recommend setting this to match object's property so a single change handler can be used.*/
   name: PropTypes.string.isRequired,
