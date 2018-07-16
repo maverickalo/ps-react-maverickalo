@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import ProgressBar from "../ProgressBar";
-import EyeIcon from "../EyeIcon";
+import Icon from "../Icon";
 import TextInput from "../TextInput";
 
 /** Password input with integrated label, quality tips, and show password toggle. */
@@ -54,7 +54,7 @@ class PasswordInput extends React.Component {
             onClick={this.toggleShowPassword}
             style={{ marginLeft: 5 }}
           >
-            <EyeIcon />
+            <Icon />
           </a>
         )}
         {value.length > 0 &&

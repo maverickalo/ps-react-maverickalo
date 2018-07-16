@@ -1,6 +1,6 @@
 import React from "react";
-import EyeIcon from "ps-react/EyeIcon";
+import Icon from "ps-react/Icon";
 
-export default function EyeIconExample() {
-  return <EyeIcon />;
+export default function IconExample() {
+  return <Icon />;
 }

@@ -11,7 +11,7 @@ function Label({ htmlFor, label, required }) {
 }
 
 Label.propTypes = {
-  /** HTML ID for associated input */
+  /** HTML ID */
   htmlFor: PropTypes.string.isRequired,
 
   /** Label text */
